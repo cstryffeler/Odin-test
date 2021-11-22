@@ -1,0 +1,33 @@
+.flex-container {
+    display: flex;
+    justify-content: baseline;
+}
+
+* {
+    margin: 20px;
+}
+
+.vertical-flex-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+img {
+    height: auto;  
+    width: 300px;
+}
+
+.links {
+    display: flex;
+}
+
+.boxes {
+    height: 30px;
+    width: 30px;
+    border: 1px solid blue;
+}
+
+h2 {
+    text-align: center;
+}
